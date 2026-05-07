@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-stone-50: #FAF9F6;
+  --color-stone-100: #F2EFEA;
+  --color-stone-200: #E6E1D8;
+  --color-stone-300: #D6D3D0;
+  --color-stone-400: #B0ADAA;
+  --color-stone-500: #888888;
+  --color-stone-600: #666666;
+  --color-stone-700: #4D4D4D;
+  --color-stone-800: #333333;
+  --color-stone-900: #262626;
+  
+  --color-sage-400: #AAC2B4;
+  --color-sage-500: #8FAD9C;
+  --color-sage-600: #6F8C7C;
+  
+  --color-brand-400: #668A8A;
+  --color-brand-500: #4A6B6B;
+  --color-brand-600: #365050;
+  
+  --color-coral-400: #E8A18F;
+  --color-coral-500: #DE846E;
+  --color-coral-600: #C26852;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-heading: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-stone-50);
+    color: var(--color-stone-900);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 300; /* Minimalist, clean and light feel */
+    color: var(--color-stone-900);
+    letter-spacing: -0.02em;
+  }
+}
+
+
